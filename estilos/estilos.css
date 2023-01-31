@@ -1,0 +1,433 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e653ef;
+}
+
+.img-icon-nav {
+  background-image: url(../imagenes/LogoBlanco.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  padding: 15px;
+  margin-left: 10%;
+}
+
+.img-icon-nav:hover {
+  transition: 1.5s;
+  transform: scale(1.2);
+  background-color: #e653ef;
+  border-radius: 25%;
+}
+
+.navbar {
+  padding: 2rem;
+  background-color: black;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  background-color: black;
+  border-radius: 10px;
+  margin: 10px;
+}
+li .nav-link {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: 400;
+  border-radius: 10px;
+  padding: 15px;
+}
+li .nav-link:hover {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  transition: 1.3s;
+  padding: 15px;
+}
+
+.btn-color {
+  color: white;
+  background-color: #e653ef;
+}
+
+.btn-color:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+@media screen and (max-width: 767px) {
+  .img-icon-nav {
+    display: none;
+  }
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+
+.hero {
+  background-color: #e653ef;
+  min-height: 450px;
+  text-align: center;
+}
+.hero .hero-principal {
+  padding: 3rem;
+}
+.hero .hero-principal h2 {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.hero-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 0 50%;
+  margin: 20px;
+}
+
+.tratamientos-001 {
+  height: 80px;
+  padding: 60px;
+  color: white;
+  padding: 20px;
+  height: auto;
+  text-transform: uppercase;
+  font-weight: 400;
+  background-color: black;
+  border-radius: 0 0 20px 20px;
+}
+.tratamientos-001 h2 {
+  color: #e653ef;
+  font-weight: 600;
+}
+.tratamientos-001 .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+.con-card {
+  background-color: black;
+  padding: 10px;
+  margin: 0 auto;
+  color: #e653ef;
+  text-transform: capitalize;
+}
+
+.img-bg-card {
+  background-image: url(/imagenes/logoWef.png);
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 250px;
+  max-height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Lato", sans-serif;
+}
+
+.seccion-text {
+  font-size: 1.2rem;
+}
+
+.tratamientos-002 {
+  padding: 10px;
+}
+.tratamientos-002 h3 {
+  text-transform: uppercase;
+  color: #e653ef;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50px;
+}
+.tratamientos-002 p {
+  color: black;
+}
+.tratamientos-002 .row div {
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.tratamientos-002 .img-tfc {
+  background-image: url(/imagenes/logoWef.png);
+  min-width: 200px;
+  min-height: 200px;
+  max-width: 300px;
+  max-height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+.tratamientos-002 a {
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 2px;
+}
+.tratamientos-002 a:hover {
+  transition: 1s;
+  color: #e653ef;
+  background-color: black;
+}
+.tratamientos-002 .img-tfc:hover {
+  transform: scale(1.1);
+  transition: 1.1s;
+}
+
+.contenedor-p {
+  width: 80%;
+  margin: 0 auto;
+  height: 600px;
+  background-color: white;
+}
+
+.pie {
+  background-color: black;
+  height: 80px;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 20px;
+}
+.pie a {
+  color: white;
+}
+.pie .bi-instagram:hover {
+  color: #e653ef;
+}
+.pie .bi-whatsapp:hover {
+  color: green;
+}
+.pie .bi-facebook:hover {
+  color: rgb(33, 88, 240);
+}
+.pie i:hover {
+  transition: 1s;
+}
+.pie p {
+  color: white;
+  font-size: 12px;
+  letter-spacing: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.aparatologias-001 {
+  border-radius: 0;
+}
+
+.main-ttof {
+  background-image: url(/imagenes/logoWef.png);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 50%;
+  padding: 20px;
+  margin: 5% auto;
+}
+.main-ttof h1 {
+  margin-top: 7%;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.main-ttof p {
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.aparatologias-002 {
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.aparatologias-002 h3 {
+  text-transform: uppercase;
+  color: white;
+  background-color: #e653ef;
+  border-radius: 50px;
+  padding: 10px;
+}
+.aparatologias-002 a {
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 3px;
+}
+.aparatologias-002 a:hover {
+  background-color: #e653ef;
+  color: white;
+  transition: 1.1s;
+}
+
+.mau-001 {
+  background-color: #e653ef;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.video-responsive {
+  overflow: hidden;
+  position: relative;
+  min-height: 200px;
+  min-width: 200px;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding: 5%;
+}
+
+.inicio-c {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.h2-st-producto {
+  background-color: #e653ef;
+  color: black;
+  border-radius: 15px;
+  text-transform: uppercase;
+  width: 60%;
+  margin: 10px auto;
+}
+.h2-st-producto p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.carousel-001 {
+  padding: 10px;
+  text-align: center;
+}
+.carousel-001 h2 {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  text-transform: capitalize;
+}
+.carousel-001 p {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  width: 300px;
+}
+.carousel-001 .let p:first-letter {
+  text-transform: uppercase;
+}
+.carousel-001 .contenedor-carusell {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.carousel-001 .carousel-002 {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.carousel-001 .carousel-002 .img-bg-carousel-1 {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  border-radius: 35px;
+  background-image: url(/imagenes/sad-2042536_960_720.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+}
+.carousel-001 .carousel-002 .img-bg-carousel-2 {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  border-radius: 35px;
+  background-image: url(/imagenes/smile-2072907_960_720.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+}
+.carousel-001 .carousel-002 .img-bg-carousel-3 {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  border-radius: 35px;
+  background-image: url(/imagenes/woman-1063100_960_720.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.formulario-001 {
+  background-color: white;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+.formulario-001 .button-001 {
+  border: 2px solid black;
+  color: #e653ef;
+  border-radius: 20px;
+  padding: 3px;
+  font-weight: 500;
+}
+.formulario-001 .button-001:hover {
+  background-color: black;
+  color: green;
+}
+.formulario-001 .button-002 {
+  border: 2px solid black;
+  color: #e653ef;
+  border-radius: 20px;
+  padding: 3px;
+  font-weight: 500;
+}
+.formulario-001 .button-002:hover {
+  background-color: black;
+  color: red;
+}/*# sourceMappingURL=estilos.css.map */
